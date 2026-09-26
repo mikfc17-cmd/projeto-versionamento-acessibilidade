@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto sobre versionamento e acessibilidade web">
+    <title>Versionamento e Acessibilidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Versionamento e Acessibilidade</h1>
+
+        <nav aria-label="Navegação principal">
+            <a href="#inicio">Início</a>
+            <a href="#acessibilidade">Acessibilidade</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Projeto Web Acessível</h2>
+
+            <p>
+                Este projeto demonstra boas práticas de desenvolvimento
+                front-end, versionamento e acessibilidade.
+            </p>
+        </section>
+
+        <section id="acessibilidade">
+            <h2>Recursos de Acessibilidade</h2>
+
+            <img
+                src="https://via.placeholder.com/600x300"
+                alt="Ilustração representando acessibilidade na web"
+            >
+
+            <p>
+                A página utiliza HTML semântico, navegação por teclado,
+                contraste adequado e atributos de acessibilidade para
+                facilitar o acesso ao conteúdo.
+            </p>
+
+            <button
+                id="contraste"
+                type="button"
+                aria-label="Ativar ou desativar modo de alto contraste"
+            >
+                Alto contraste
+            </button>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+
+            <form>
+                <label for="nome">Nome:</label>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    required
+                >
+
+                <label for="email">E-mail:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto acadêmico - Desenvolvimento Front-end</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
