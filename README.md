@@ -18,4 +18,9 @@ O projeto utiliza elementos HTML semânticos, atributos ARIA, navegação por te
 - script.js - interatividade da aplicação
 
 ## Objetivo
+
 Desenvolver uma aplicação Web organizada, acessível e preparada para versionamento e publicação em ambiente de produção.
+
+## Versionamento
+
+O projeto utiliza GitFlow, com as branches main, develop e feature/acessibilidade para organizar o desenvolvimento e o controle de versões.
